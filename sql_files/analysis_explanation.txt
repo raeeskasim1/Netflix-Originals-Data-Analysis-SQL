@@ -1,0 +1,32 @@
+Netflix Originals Data Analysis - Explanation of SQL Queries
+
+1. What are the average IMDb scores for each genre of Netflix Originals?
+   → This query calculates the average IMDb score for each genre using GROUP BY and JOIN operations to understand which genres generally perform better.
+
+2. Which genres have an average IMDb score higher than 7.5?
+   → Builds on the previous query, using the HAVING clause to filter only those genres whose average score is above 7.5.
+
+3. List Netflix Original titles in descending order of their IMDb scores.
+   → Orders all Netflix Originals by their IMDb score, helping identify the highest-rated content on the platform.
+
+4. Retrieve the top 10 longest Netflix Originals by runtime.
+   → Uses ORDER BY and LIMIT to display the 10 longest titles by duration, useful to analyze longer content trends.
+
+5. Retrieve the titles of Netflix Originals along with their respective genres.
+   → Performs a JOIN between Netflix Originals and Genre Details to show titles with their associated genre names.
+
+6. Rank Netflix Originals based on their IMDb scores within each genre.
+   → Uses a window function (RANK OVER PARTITION BY) to rank titles within each genre by IMDb score.
+
+7. Which Netflix Originals have IMDb scores higher than the average IMDb score of all titles?
+   → Uses a subquery to compare each title’s score with the overall average, listing only higher-than-average titles.
+
+8. How many Netflix Originals are there in each genre?
+   → Counts the number of titles grouped by genre using COUNT and GROUP BY to analyze content volume per genre.
+
+9. Which genres have more than 5 Netflix Originals with an IMDb score higher than 8?
+   → Filters titles with IMDb > 8, groups them by genre, and uses HAVING to select only those genres with more than 5 high-rated titles.
+
+10. What are the top 3 genres with the highest average IMDb scores, and how many Netflix Originals do they have?
+    → Combines aggregation (AVG and COUNT), ordering, and LIMIT to find the top 3 best-performing genres in terms of ratings and total titles.
+
