@@ -32,18 +32,18 @@ By using advanced SQL features like `GROUP BY`, `HAVING`, `ORDER BY`, `LIMIT`, `
 
 ## Project Structure
 
-Netflix-Originals-Data-Analysis-SQL/
-├── Dataset/
-│ ├── Netflix_Originals.csv
-│ └── Genre_Details.csv
-├── SQL_Files/
-│ ├── queries.sql
-│ └── analysis_explanation.txt
-├── output/
-│ ├── avg_imdb_by_genre.csv
-│ ├── top_10_runtime.csv
-│ └── other_query_outputs.csv
-└── README.md
+Netflix-Originals-Data-Analysis-SQL/  
+├── Dataset/  
+│ ├── Netflix_Originals.csv  
+│ └── Genre_Details.csv  
+├── SQL_Files/  
+│ ├── queries.sql  
+│ └── analysis_explanation.txt  
+├── output/  
+│ ├── avg_imdb_by_genre.csv  
+│ ├── top_10_runtime.csv  
+│ └── other_query_outputs.csv  
+└── README.md  
 
 ##  How to Run
 
